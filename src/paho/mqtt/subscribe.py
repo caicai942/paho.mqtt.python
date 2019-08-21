@@ -44,6 +44,7 @@ def _on_message_simple(client, userdata, message):
     """Internal callback"""
 
     if userdata['msg_count'] == 0:
+        pass
         return
 
     # Don't process stale retained messages if 'retained' was false
